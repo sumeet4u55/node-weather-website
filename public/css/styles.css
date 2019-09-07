@@ -1,0 +1,40 @@
+body {
+    margin: 2rem 2rem;
+    color: #333;
+}
+
+header {
+    font-size: 20px;
+    padding: 2rem;
+}
+
+header a {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+footer {
+    padding: 2rem;
+    border-top: 1px dashed grey;
+    width: 100%;
+}
+
+.messageNotFound {
+    color: rgba(255, 0, 0, 0.753);
+    font-weight: 400;
+    font-size: 30px;
+    padding: 2rem;
+}
+
+.main-content {
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 30px;
+    padding: 2rem;
+}
+
+.main-content + footer {
+    position: fixed;
+    bottom: 5px;
+    left: 2rem;
+}
