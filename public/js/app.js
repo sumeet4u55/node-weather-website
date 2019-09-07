@@ -18,7 +18,7 @@ form.addEventListener('submit', (e)=>{
     const location = searchValue.value;
     console.log('Clicked Submit!!', location);
 
-    let url = `http://localhost:8080/weather?address=${location}`;
+    let url = `/weather?address=${location}`;
     fetch(url).then((response)=>{
         response.json().then((data)=>{
 
